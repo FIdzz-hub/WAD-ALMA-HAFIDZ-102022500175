@@ -1,0 +1,272 @@
+body {
+  background: #f5f6f8;
+  color: #25282d;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page-container {
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.topbar {
+  margin-bottom: 30px;
+}
+
+.brand-title {
+  font-size: 27px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.brand-desc {
+  color: #73777d;
+  margin: 0;
+  font-size: 14px;
+}
+
+.btn-add {
+  background: #212529;
+  border: none;
+  color: #fff;
+  padding: 10px 17px;
+  border-radius: 7px;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn-add:hover {
+  background: #343a40;
+  color: #fff;
+}
+
+.inventory-card {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card-header-custom {
+  padding: 20px 22px;
+  border-bottom: 1px solid #e9ecef;
+  background: #fff;
+}
+
+.card-title {
+  font-size: 17px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.card-subtitle {
+  color: #8a8f95;
+  font-size: 13px;
+  margin: 5px 0 0;
+}
+
+.table {
+  margin: 0;
+  font-size: 14px;
+}
+
+.table thead th {
+  background: #f8f9fa;
+  color: #555b61;
+  border-bottom: 1px solid #dee2e6;
+  border-top: none;
+  padding: 13px 15px;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: .3px;
+  white-space: nowrap;
+}
+
+.table tbody td {
+  padding: 15px;
+  border-color: #edf0f2;
+  color: #42474d;
+}
+
+.table tbody tr:hover {
+  background: #fafafa;
+}
+
+.code-badge {
+  display: inline-block;
+  background: #f1f3f5;
+  color: #495057;
+  border-radius: 5px;
+  padding: 5px 8px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.stock {
+  font-weight: 700;
+  color: #25282d;
+}
+
+.btn-action {
+  border-radius: 5px;
+  padding: 6px 10px;
+  font-size: 12px;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn-edit {
+  color: #495057;
+  background: #f1f3f5;
+  border: 1px solid #dee2e6;
+}
+
+.btn-edit:hover {
+  background: #e9ecef;
+  color: #212529;
+}
+
+.btn-delete {
+  color: #b02a37;
+  background: #fff;
+  border: 1px solid #f1b0b7;
+}
+
+.btn-delete:hover {
+  background: #fff5f5;
+  color: #842029;
+}
+
+.form-card {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 28px;
+}
+
+.page-title {
+  font-size: 27px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.page-desc {
+  color: #73777d;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.section-title {
+  font-size: 17px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.section-desc {
+  color: #73777d;
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+
+/*  */
+
+.form-label {
+  font-size: 13px;
+  font-weight: 600;
+  color: #454a50;
+  margin-bottom: 7px;
+}
+
+.form-control,
+.form-select {
+  border: 1px solid #d9dde1;
+  border-radius: 6px;
+  min-height: 42px;
+  font-size: 14px;
+  color: #343a40;
+  box-shadow: none !important;
+}
+
+.form-control:focus,
+.form-select:focus {
+  border-color: #9da3a9;
+  box-shadow: 0 0 0 2px rgba(108, 117, 125, 0.08) !important;
+}
+
+textarea.form-control {
+  padding-top: 10px;
+  padding-left: 12px;
+  resize: vertical;
+}
+
+.form-control::placeholder {
+  color: #adb3b8;
+}
+
+.btn-save,
+.btn-update {
+  background: #212529;
+  border: none;
+  color: #fff;
+  border-radius: 6px;
+  padding: 10px 18px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.btn-save:hover,
+.btn-update:hover {
+  background: #343a40;
+  color: #fff;
+}
+
+.btn-back {
+  background: #fff;
+  color: #495057;
+  border: 1px solid #d9dde1;
+  border-radius: 6px;
+  padding: 10px 18px;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.btn-back:hover {
+  background: #f8f9fa;
+  color: #212529;
+}
+
+/*  */
+
+@media (max-width: 768px) {
+  .page-container {
+    padding: 25px 12px;
+  }
+
+  .topbar {
+    align-items: flex-start !important;
+    gap: 15px;
+    flex-direction: column;
+  }
+
+  .btn-add {
+    width: 100%;
+  }
+
+  .form-card {
+    padding: 20px;
+  }
+
+  .page-title,
+  .brand-title {
+    font-size: 23px;
+  }
+}
